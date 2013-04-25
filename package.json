@@ -1,0 +1,22 @@
+{
+  "name": "bundle-metadata",
+  "description": "",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dominictarr/bundle-metadata",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/bundle-metadata.git"
+  },
+  "dependencies": {
+    "sha1sum": "0.0.1",
+    "through": "~2.3.3",
+    "optimist": "~0.4.0",
+    "JSONStream": "~0.6.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
+  "license": "MIT"
+}
