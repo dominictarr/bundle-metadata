@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 
 var through = require('through')
 var path    = require('path')
