@@ -22,7 +22,7 @@ var metadata = module.exports = function (opts) {
     var meta = {}
 
     a.forEach(function (data) {
-      r = path.relative(opts.relative || process.cwd(), data.id)
+      var r = path.relative(opts.relative || process.cwd(), data.id)
       meta[r] = data.hash
       hash.update(r + ':' + data.hash)
     })
