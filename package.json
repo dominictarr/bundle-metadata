@@ -1,7 +1,7 @@
 {
   "name": "bundle-metadata",
-  "description": "",
-  "version": "1.0.0",
+  "description": "extract metadata about a browserify bundle",
+  "version": "1.0.1",
   "homepage": "https://github.com/dominictarr/bundle-metadata",
   "repository": {
     "type": "git",
